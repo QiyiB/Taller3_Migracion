@@ -245,7 +245,7 @@ parrafo("Migración de una Base de Datos Relacional de Comercio Electrónico des
         sangria=False, alineacion=WD_ALIGN_PARAGRAPH.CENTER, negrita=True)
 parrafo("Documentación del Taller Evaluativo No. 3", sangria=False, alineacion=WD_ALIGN_PARAGRAPH.CENTER)
 parrafo("", sangria=False)
-for linea in ["[Nombre del integrante 1] y [Nombre del integrante 2]",
+for linea in ["Mariana Aguilar Alcaraz y Giany Andrés Salazar Bustamante",
               "Universidad Católica Luis Amigó",
               "Bases de Datos II",
               "Profesor: Juan Carlos Gómez",
@@ -290,7 +290,7 @@ tabla("Entregables del Taller y su Ubicación en el Repositorio",
                                                    (" y este documento", {})]],
        ["Justificación de las consultas", [("docs/consultas.md", C), (" y ", {}),
                                            ("evidencias/04_resultados_consultas.txt", C)]],
-       ["Presentación de la sustentación", [("presentacion/Sustentacion_Taller3.pptx", C)]]],
+       ["Presentación de la sustentación", [("presentacion/Exposicion_Taller3.pptx", C)]]],
       [2.6, 3.9],
       "El repositorio incluye además una aplicación de escritorio complementaria (carpeta migrador) que se "
       "describe al final de este documento.")
@@ -731,12 +731,14 @@ parrafo("Con TiendaOnline la aplicación propone siete colecciones, casi el mism
 # ================================================================= presentación
 titulo("Presentación de la Sustentación", 1)
 parrafo([("La presentación utilizada en la sustentación se encuentra en ", {}),
-         ("presentacion/Sustentacion_Taller3.pptx", C),
-         (" y se genera con ", {}), ("presentacion/generar_presentacion.py", C),
-         (". Tiene 22 diapositivas con notas para el expositor y sigue este recorrido: caso de estudio, modelo "
-          "relacional, proceso de migración, modelo documental, decisiones de Embedding y Referencing, "
-          "verificación, una diapositiva por cada consulta con su gráfico, hallazgo y decisión, la aplicación "
-          "de escritorio y las conclusiones.", {})])
+         ("presentacion/Exposicion_Taller3.pptx", C),
+         (" y tiene 23 diapositivas. Mariana Aguilar Alcaraz expone las secciones 1 a 4 y las consultas C1 a "
+          "C3, y Giany Andrés Salazar Bustamante expone las secciones 5 a 7 y las consultas C4 a C7. El "
+          "recorrido es el siguiente: el caso de TiendaOnline, el modelo relacional y su volumen de registros, "
+          "el paso de 10 tablas a 6 colecciones, las decisiones de Embedding y de Referencing, el código de la "
+          "migración, la aplicación de escritorio y sus opciones de modelado, la verificación con 79 de 79 "
+          "controles correctos, el documento de un pedido en MongoDB, una diapositiva por cada una de las siete "
+          "consultas y las conclusiones.", {})])
 
 # ================================================================= conclusiones
 titulo("Conclusiones", 1)

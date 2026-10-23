@@ -19,6 +19,8 @@ Partimos de una base relacional en SQL Server (10 tablas, 14.027 registros) y la
 ├── consultas/
 │   └── consultas.js                # 7 Aggregation Pipelines de negocio (mongosh)
 ├── docs/
+│   ├── Documentacion_Taller3.docx  # documentación completa en Word (APA 7)
+│   ├── generar_documentacion.py    # genera el .docx (python-docx)
 │   ├── modelo_relacional.md        # diagrama ER, entidades, volumen y reglas
 │   ├── modelo_documental.md        # colecciones, Embedding vs Referencing, proceso de migración
 │   └── consultas.md                # justificación de negocio y explicación de cada pipeline
@@ -29,8 +31,7 @@ Partimos de una base relacional en SQL Server (10 tablas, 14.027 registros) y la
 │   ├── 04_resultados_consultas.txt
 │   └── ejemplos/                   # un documento real de cada colección
 ├── presentacion/
-│   ├── Sustentacion_Taller3.pptx   # presentación de la sustentación (20 diapositivas, con notas)
-│   └── generar_presentacion.py     # genera el .pptx (python-pptx)
+│   └── Exposicion_Taller3.pptx     # presentación de la sustentación (23 diapositivas)
 ├── migrador/                       # aplicación genérica: cualquier base de SQL Server → MongoDB
 │   ├── esquema.py                  # lee tablas, llaves y estadísticas desde las vistas de sistema
 │   ├── propuesta.py                # reglas que proponen Embedding / Referencing (con justificación)
