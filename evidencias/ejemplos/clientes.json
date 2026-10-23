@@ -1,0 +1,25 @@
+{
+  "_id": 1,
+  "nombres": "Carlos",
+  "apellidos": "Salazar Ruiz",
+  "email": "carlos.salazar1@outlook.com",
+  "telefono": "3143671449",
+  "fecha_nacimiento": {
+    "$date": "1975-04-18T00:00:00Z"
+  },
+  "fecha_registro": {
+    "$date": "2025-08-29T08:30:06Z"
+  },
+  "segmento": "Estandar",
+  "direcciones": [
+    {
+      "direccion_id": 1,
+      "alias": "Casa de mis padres",
+      "linea": "Avenida 80 # 10-92 Apto 467",
+      "ciudad": "Pereira",
+      "departamento": "Risaralda",
+      "codigo_postal": "660013",
+      "es_principal": true
+    }
+  ]
+}

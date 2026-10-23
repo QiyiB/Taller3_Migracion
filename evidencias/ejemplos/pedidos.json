@@ -1,0 +1,129 @@
+{
+  "_id": 24,
+  "cliente_id": 658,
+  "fecha": {
+    "$date": "2025-01-15T23:56:54Z"
+  },
+  "estado": "Entregado",
+  "direccion_envio": {
+    "direccion_id": 985,
+    "linea": "Diagonal 55 # 46-71 Apto 564",
+    "ciudad": "Medellín",
+    "departamento": "Antioquia",
+    "codigo_postal": "050071"
+  },
+  "items": [
+    {
+      "producto_id": 69,
+      "sku": "COC-00069",
+      "nombre": "Sartén antiadherente Kora Pro",
+      "cantidad": 1,
+      "precio_unitario": {
+        "$numberDecimal": "174900.00"
+      },
+      "descuento_pct": {
+        "$numberDecimal": "0.00"
+      },
+      "subtotal": {
+        "$numberDecimal": "174900.00"
+      }
+    },
+    {
+      "producto_id": 134,
+      "sku": "CAL-00134",
+      "nombre": "Zapatos formales Monteverde Prime",
+      "cantidad": 1,
+      "precio_unitario": {
+        "$numberDecimal": "156900.00"
+      },
+      "descuento_pct": {
+        "$numberDecimal": "5.00"
+      },
+      "subtotal": {
+        "$numberDecimal": "149055.00"
+      }
+    },
+    {
+      "producto_id": 150,
+      "sku": "CAL-00150",
+      "nombre": "Tenis urbanos Brisa Prime",
+      "cantidad": 1,
+      "precio_unitario": {
+        "$numberDecimal": "236900.00"
+      },
+      "descuento_pct": {
+        "$numberDecimal": "15.00"
+      },
+      "subtotal": {
+        "$numberDecimal": "201365.00"
+      }
+    },
+    {
+      "producto_id": 171,
+      "sku": "BEL-00171",
+      "nombre": "Perfume Zenit Go",
+      "cantidad": 1,
+      "precio_unitario": {
+        "$numberDecimal": "59900.00"
+      },
+      "descuento_pct": {
+        "$numberDecimal": "0.00"
+      },
+      "subtotal": {
+        "$numberDecimal": "59900.00"
+      }
+    }
+  ],
+  "totales": {
+    "subtotal": {
+      "$numberDecimal": "585220.00"
+    },
+    "costo_envio": {
+      "$numberDecimal": "0.00"
+    },
+    "total": {
+      "$numberDecimal": "585220.00"
+    }
+  },
+  "pagos": [
+    {
+      "pago_id": 25,
+      "metodo": "Tarjeta credito",
+      "estado": "Rechazado",
+      "monto": {
+        "$numberDecimal": "585220.00"
+      },
+      "fecha": {
+        "$date": "2025-01-15T23:57:54Z"
+      },
+      "referencia": "PAY-0000025"
+    },
+    {
+      "pago_id": 26,
+      "metodo": "Tarjeta credito",
+      "estado": "Aprobado",
+      "monto": {
+        "$numberDecimal": "585220.00"
+      },
+      "fecha": {
+        "$date": "2025-01-16T00:22:54Z"
+      },
+      "referencia": "PAY-0000026"
+    }
+  ],
+  "envio": {
+    "envio_id": 23,
+    "transportadora": "Servientrega",
+    "numero_guia": "SVT002408767",
+    "fecha_despacho": {
+      "$date": "2025-01-16T23:56:54Z"
+    },
+    "fecha_entrega_estimada": {
+      "$date": "2025-01-19T23:56:54Z"
+    },
+    "fecha_entrega": {
+      "$date": "2025-01-20T00:56:54Z"
+    },
+    "estado": "Entregado"
+  }
+}

@@ -1,0 +1,33 @@
+﻿Changed database context to 'TiendaOnline'.
+== Registros por tabla ==
+Tabla Registros
+----- ---------
+Categorias 12
+Proveedores 25
+Productos 300
+Clientes 800
+Direcciones 1185
+Pedidos 2000
+DetallePedido 4317
+Pagos 2144
+Envios 1866
+Resenas 1378
+TotalRegistros
+--------------
+14027
+== Controles de coherencia (todos deben ser 0) ==
+Control Casos
+------- -----
+Pedidos cuyo subtotal no cuadra con el detalle 0
+Pedidos con direccion de otro cliente 0
+Pedidos Entregados sin envio entregado 0
+Pedidos Pagado/Enviado/Entregado sin pago aprobado 0
+Resenas de productos no recibidos por el cliente 0
+== Distribucion de pedidos por estado ==
+Estado Pedidos Valor
+------ ------- -----
+Entregado 1856 1335658240.00
+Cancelado 125 79611405.00
+Enviado 10 4525240.00
+Pendiente 5 4552905.00
+Pagado 4 1817820.00

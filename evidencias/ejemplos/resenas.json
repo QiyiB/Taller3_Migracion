@@ -1,0 +1,10 @@
+{
+  "_id": 1,
+  "producto_id": 32,
+  "cliente_id": 423,
+  "calificacion": 5,
+  "comentario": "Calidad excelente y entrega rápida.",
+  "fecha": {
+    "$date": "2025-01-16T07:51:23Z"
+  }
+}

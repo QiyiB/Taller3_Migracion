@@ -1,0 +1,874 @@
+﻿
+====================================================================================================
+C1. Top 10 productos por ingresos en 2026 (con categoría, proveedor y margen)
+Colección: pedidos
+====================================================================================================
+{
+  unidades: 136,
+  pedidos: 87,
+  sku: 'TEC-00014',
+  producto: 'Smartwatch Zenit Plus',
+  categoria: 'Tecnología',
+  proveedor: 'Comercializadora del Norte S.A.S.',
+  ingresos: 44059335,
+  margen_bruto: 20640135,
+  stock_actual: 9
+}
+{
+  unidades: 73,
+  pedidos: 52,
+  sku: 'DEP-00079',
+  producto: 'Bicicleta estática Brisa Lite',
+  categoria: 'Deportes',
+  proveedor: 'Comercializadora Global S.A.S.',
+  ingresos: 31325730,
+  margen_bruto: 12812930,
+  stock_actual: 118
+}
+{
+  unidades: 39,
+  pedidos: 26,
+  sku: 'TEC-00013',
+  producto: 'Parlante Bluetooth Tayrona Plus',
+  categoria: 'Tecnología',
+  proveedor: 'Suministros Orinoquía S.A.S.',
+  ingresos: 19477965,
+  margen_bruto: 7555665,
+  stock_actual: 162
+}
+{
+  unidades: 21,
+  pedidos: 12,
+  sku: 'DEP-00100',
+  producto: 'Mancuernas ajustables Andina Edición 2026',
+  categoria: 'Deportes',
+  proveedor: 'Distribuciones Integral S.A.S.',
+  ingresos: 19386345,
+  margen_bruto: 4203345,
+  stock_actual: 294
+}
+{
+  unidades: 39,
+  pedidos: 24,
+  sku: 'OFI-00270',
+  producto: 'Archivador metálico Aurora Pro',
+  categoria: 'Oficina',
+  proveedor: 'Importadora Pacífico S.A.S.',
+  ingresos: 18470925,
+  margen_bruto: 9711525,
+  stock_actual: 180
+}
+{
+  unidades: 26,
+  pedidos: 20,
+  sku: 'DEP-00080',
+  producto: 'Banda de resistencia Tayrona Plus',
+  categoria: 'Deportes',
+  proveedor: 'Comercializadora Global S.A.S.',
+  ingresos: 16239830,
+  margen_bruto: 6796630,
+  stock_actual: 185
+}
+{
+  unidades: 52,
+  pedidos: 33,
+  sku: 'BEL-00157',
+  producto: 'Crema hidratante Monteverde Pro',
+  categoria: 'Belleza',
+  proveedor: 'Grupo del Caribe S.A.S.',
+  ingresos: 14352180,
+  margen_bruto: 3218980,
+  stock_actual: 57
+}
+{
+  unidades: 21,
+  pedidos: 14,
+  sku: 'OFI-00261',
+  producto: 'Silla ergonómica Nova Prime',
+  categoria: 'Oficina',
+  proveedor: 'Importadora Nacional S.A.S.',
+  ingresos: 14329120,
+  margen_bruto: 4001320,
+  stock_actual: 394
+}
+{
+  unidades: 32,
+  pedidos: 25,
+  sku: 'COC-00070',
+  producto: 'Licuadora Cumbre Plus',
+  categoria: 'Cocina',
+  proveedor: 'Importadora Global S.A.S.',
+  ingresos: 13559375,
+  margen_bruto: 6781775,
+  stock_actual: 334
+}
+{
+  unidades: 17,
+  pedidos: 10,
+  sku: 'OFI-00257',
+  producto: 'Escritorio plegable Cumbre Prime',
+  categoria: 'Oficina',
+  proveedor: 'Importadora Nacional S.A.S.',
+  ingresos: 12379920,
+  margen_bruto: 6263320,
+  stock_actual: 127
+}
+(10 documentos)
+
+====================================================================================================
+C2. Ingresos, margen bruto y % de margen por categoría
+Colección: pedidos
+====================================================================================================
+{
+  unidades: 473,
+  categoria: 'Deportes',
+  pedidos: 296,
+  ingresos: 269327805,
+  margen_bruto: 102234905,
+  margen_pct: 38
+}
+{
+  unidades: 566,
+  categoria: 'Tecnología',
+  pedidos: 367,
+  ingresos: 225417615,
+  margen_bruto: 96587515,
+  margen_pct: 42.8
+}
+{
+  unidades: 477,
+  categoria: 'Oficina',
+  pedidos: 305,
+  ingresos: 206022235,
+  margen_bruto: 87290835,
+  margen_pct: 42.4
+}
+{
+  unidades: 416,
+  categoria: 'Cocina',
+  pedidos: 278,
+  ingresos: 97184555,
+  margen_bruto: 39740655,
+  margen_pct: 40.9
+}
+{
+  unidades: 524,
+  categoria: 'Belleza',
+  pedidos: 331,
+  ingresos: 94095325,
+  margen_bruto: 35027525,
+  margen_pct: 37.2
+}
+{
+  unidades: 458,
+  categoria: 'Calzado',
+  pedidos: 301,
+  ingresos: 95888785,
+  margen_bruto: 34086485,
+  margen_pct: 35.5
+}
+{
+  unidades: 519,
+  categoria: 'Juguetes',
+  pedidos: 339,
+  ingresos: 77340445,
+  margen_bruto: 31282345,
+  margen_pct: 40.4
+}
+{
+  unidades: 509,
+  categoria: 'Moda',
+  pedidos: 337,
+  ingresos: 78044630,
+  margen_bruto: 28373230,
+  margen_pct: 36.4
+}
+{
+  unidades: 418,
+  categoria: 'Hogar',
+  pedidos: 280,
+  ingresos: 50988250,
+  margen_bruto: 21152450,
+  margen_pct: 41.5
+}
+{
+  unidades: 705,
+  categoria: 'Libros',
+  pedidos: 424,
+  ingresos: 49496035,
+  margen_bruto: 20141135,
+  margen_pct: 40.7
+}
+{
+  unidades: 371,
+  categoria: 'Mascotas',
+  pedidos: 250,
+  ingresos: 47857890,
+  margen_bruto: 19737790,
+  margen_pct: 41.2
+}
+{
+  unidades: 374,
+  categoria: 'Salud',
+  pedidos: 241,
+  ingresos: 48100330,
+  margen_bruto: 19247230,
+  margen_pct: 40
+}
+(12 documentos)
+
+====================================================================================================
+C3. Top 15 clientes no-Oro por valor comprado (candidatos a upgrade de segmento)
+Colección: pedidos
+====================================================================================================
+{
+  pedidos: 28,
+  cliente_id: 45,
+  nombre: 'Sebastián Muñoz Valencia',
+  email: 'sebastian.munoz45@hotmail.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Cali',
+  total_comprado: 23854645,
+  ticket_promedio: 851952,
+  ultima_compra: '2026-09-22'
+}
+{
+  pedidos: 24,
+  cliente_id: 286,
+  nombre: 'Valentina Mejía Vargas',
+  email: 'valentina.mejia286@correo.co',
+  segmento_actual: 'Estandar',
+  ciudad: 'Bogotá',
+  total_comprado: 18593690,
+  ticket_promedio: 774737,
+  ultima_compra: '2026-08-31'
+}
+{
+  pedidos: 16,
+  cliente_id: 303,
+  nombre: 'Manuela Torres Castro',
+  email: 'manuela.torres303@outlook.com',
+  segmento_actual: 'Plata',
+  ciudad: 'Bogotá',
+  total_comprado: 13368030,
+  ticket_promedio: 835502,
+  ultima_compra: '2026-08-15'
+}
+{
+  pedidos: 14,
+  cliente_id: 172,
+  nombre: 'Felipe Cárdenas Restrepo',
+  email: 'felipe.cardenas172@hotmail.com',
+  segmento_actual: 'Plata',
+  ciudad: 'Bucaramanga',
+  total_comprado: 12945065,
+  ticket_promedio: 924648,
+  ultima_compra: '2026-09-25'
+}
+{
+  pedidos: 15,
+  cliente_id: 783,
+  nombre: 'Valentina Muñoz Hernández',
+  email: 'valentina.munoz783@yahoo.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Barranquilla',
+  total_comprado: 11568090,
+  ticket_promedio: 771206,
+  ultima_compra: '2026-08-24'
+}
+{
+  pedidos: 6,
+  cliente_id: 315,
+  nombre: 'Laura Álvarez Castro',
+  email: 'laura.alvarez315@correo.co',
+  segmento_actual: 'Estandar',
+  ciudad: 'Bogotá',
+  total_comprado: 10952175,
+  ticket_promedio: 1825362,
+  ultima_compra: '2026-09-19'
+}
+{
+  pedidos: 12,
+  cliente_id: 389,
+  nombre: 'Manuela Quintero Gómez',
+  email: 'manuela.quintero389@hotmail.com',
+  segmento_actual: 'Plata',
+  ciudad: 'Medellín',
+  total_comprado: 10698270,
+  ticket_promedio: 891522,
+  ultima_compra: '2026-09-16'
+}
+{
+  pedidos: 10,
+  cliente_id: 94,
+  nombre: 'Manuela Ruiz Romero',
+  email: 'manuela.ruiz94@yahoo.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Santa Marta',
+  total_comprado: 10681495,
+  ticket_promedio: 1068150,
+  ultima_compra: '2026-09-12'
+}
+{
+  pedidos: 16,
+  cliente_id: 714,
+  nombre: 'Sofía Salazar Martínez',
+  email: 'sofia.salazar714@outlook.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Bogotá',
+  total_comprado: 10512435,
+  ticket_promedio: 657027,
+  ultima_compra: '2026-09-14'
+}
+{
+  pedidos: 7,
+  cliente_id: 226,
+  nombre: 'Juliana Rodríguez Martínez',
+  email: 'juliana.rodriguez226@outlook.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Bogotá',
+  total_comprado: 10117975,
+  ticket_promedio: 1445425,
+  ultima_compra: '2026-09-25'
+}
+{
+  pedidos: 14,
+  cliente_id: 658,
+  nombre: 'Alejandro Restrepo Ruiz',
+  email: 'alejandro.restrepo658@outlook.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Medellín',
+  total_comprado: 9575050,
+  ticket_promedio: 683932,
+  ultima_compra: '2026-09-06'
+}
+{
+  pedidos: 9,
+  cliente_id: 74,
+  nombre: 'Samuel Ospina Ortiz',
+  email: 'samuel.ospina74@gmail.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Bucaramanga',
+  total_comprado: 9554695,
+  ticket_promedio: 1061633,
+  ultima_compra: '2026-09-24'
+}
+{
+  pedidos: 12,
+  cliente_id: 611,
+  nombre: 'Daniela Quintero Díaz',
+  email: 'daniela.quintero611@outlook.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Bogotá',
+  total_comprado: 9367015,
+  ticket_promedio: 780585,
+  ultima_compra: '2026-03-14'
+}
+{
+  pedidos: 10,
+  cliente_id: 539,
+  nombre: 'Tomás Moreno Valencia',
+  email: 'tomas.moreno539@yahoo.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Bucaramanga',
+  total_comprado: 8749345,
+  ticket_promedio: 874934,
+  ultima_compra: '2026-08-01'
+}
+{
+  pedidos: 4,
+  cliente_id: 400,
+  nombre: 'Felipe Sánchez Ramírez',
+  email: 'felipe.sanchez400@outlook.com',
+  segmento_actual: 'Estandar',
+  ciudad: 'Cali',
+  total_comprado: 8680650,
+  ticket_promedio: 2170162,
+  ultima_compra: '2026-07-09'
+}
+(15 documentos)
+
+====================================================================================================
+C4. Desempeño de transportadoras: días promedio de entrega y % de entregas tarde
+Colección: pedidos
+====================================================================================================
+{
+  envios: 91,
+  entregas_tarde: 56,
+  transportadora: 'Deprisa',
+  dias_promedio: 2.9,
+  dias_maximo: 6.2,
+  pct_tarde: 61.5,
+  valor_transportado: 75527185
+}
+{
+  envios: 340,
+  entregas_tarde: 177,
+  transportadora: 'Interrapidísimo',
+  dias_promedio: 4.4,
+  dias_maximo: 9,
+  pct_tarde: 52.1,
+  valor_transportado: 255426210
+}
+{
+  envios: 156,
+  entregas_tarde: 66,
+  transportadora: 'TCC',
+  dias_promedio: 3.1,
+  dias_maximo: 6,
+  pct_tarde: 42.3,
+  valor_transportado: 103208705
+}
+{
+  envios: 465,
+  entregas_tarde: 180,
+  transportadora: 'Coordinadora',
+  dias_promedio: 3.2,
+  dias_maximo: 7.1,
+  pct_tarde: 38.7,
+  valor_transportado: 304282470
+}
+{
+  envios: 233,
+  entregas_tarde: 76,
+  transportadora: 'Envía',
+  dias_promedio: 3.8,
+  dias_maximo: 8,
+  pct_tarde: 32.6,
+  valor_transportado: 154069380
+}
+{
+  envios: 571,
+  entregas_tarde: 163,
+  transportadora: 'Servientrega',
+  dias_promedio: 2.9,
+  dias_maximo: 6.1,
+  pct_tarde: 28.5,
+  valor_transportado: 443144290
+}
+(6 documentos)
+
+====================================================================================================
+C5. Productos mal calificados (promedio < 3 con al menos 3 reseñas) y su proveedor
+Colección: resenas
+====================================================================================================
+{
+  resenas: 13,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    },
+    {
+      calificacion: 2,
+      comentario: 'Regular, esperaba más por el precio.'
+    }
+  ],
+  sku: 'COC-00070',
+  producto: 'Licuadora Cumbre Plus',
+  categoria: 'Cocina',
+  proveedor: 'Importadora Global S.A.S.',
+  contacto_proveedor: 'ventas@importadoraglobal.com.co',
+  promedio: 1.69,
+  pct_negativas: 77
+}
+{
+  resenas: 4,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    },
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    }
+  ],
+  sku: 'CAL-00133',
+  producto: 'Sandalias Zenit Go',
+  categoria: 'Calzado',
+  proveedor: 'Importadora Global S.A.S.',
+  contacto_proveedor: 'ventas@importadoraglobal.com.co',
+  promedio: 2,
+  pct_negativas: 75
+}
+{
+  resenas: 3,
+  quejas_recientes: [
+    {
+      calificacion: 1,
+      comentario: 'No corresponde a la descripción.'
+    },
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    }
+  ],
+  sku: 'HOG-00028',
+  producto: 'Organizador multiuso Andina Lite',
+  categoria: 'Hogar',
+  proveedor: 'Importadora Global S.A.S.',
+  contacto_proveedor: 'ventas@importadoraglobal.com.co',
+  promedio: 2,
+  pct_negativas: 67
+}
+{
+  resenas: 3,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    },
+    {
+      calificacion: 1,
+      comentario: 'No corresponde a la descripción.'
+    }
+  ],
+  sku: 'TEC-00023',
+  producto: 'Power bank 20000 mAh Brisa Go',
+  categoria: 'Tecnología',
+  proveedor: 'Comercializadora del Norte S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoradelnorte.com.co',
+  promedio: 2,
+  pct_negativas: 67
+}
+{
+  resenas: 6,
+  quejas_recientes: [
+    {
+      calificacion: 1,
+      comentario: 'Muy mala calidad, no lo recomiendo.'
+    },
+    {
+      calificacion: 1,
+      comentario: 'Muy mala calidad, no lo recomiendo.'
+    }
+  ],
+  sku: 'MOD-00111',
+  producto: 'Bolso de mano Aurora Classic',
+  categoria: 'Moda',
+  proveedor: 'Distribuciones Pacífico S.A.S.',
+  contacto_proveedor: 'ventas@distribucionespacifico.com.co',
+  promedio: 2.17,
+  pct_negativas: 50
+}
+{
+  resenas: 4,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    },
+    {
+      calificacion: 1,
+      comentario: 'Muy mala calidad, no lo recomiendo.'
+    }
+  ],
+  sku: 'CAL-00127',
+  producto: 'Botas de cuero Brisa Mini',
+  categoria: 'Calzado',
+  proveedor: 'Suministros Central S.A.S.',
+  contacto_proveedor: 'ventas@suministroscentral.com.co',
+  promedio: 2.25,
+  pct_negativas: 50
+}
+{
+  resenas: 9,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Se dañó a las pocas semanas.'
+    },
+    {
+      calificacion: 2,
+      comentario: 'Regular, esperaba más por el precio.'
+    }
+  ],
+  sku: 'OFI-00261',
+  producto: 'Silla ergonómica Nova Prime',
+  categoria: 'Oficina',
+  proveedor: 'Importadora Nacional S.A.S.',
+  contacto_proveedor: 'ventas@importadoranacional.com.co',
+  promedio: 2.67,
+  pct_negativas: 33
+}
+{
+  resenas: 3,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    },
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    }
+  ],
+  sku: 'CAL-00145',
+  producto: 'Tenis urbanos Brisa Go',
+  categoria: 'Calzado',
+  proveedor: 'Suministros Central S.A.S.',
+  contacto_proveedor: 'ventas@suministroscentral.com.co',
+  promedio: 2.67,
+  pct_negativas: 67
+}
+{
+  resenas: 10,
+  quejas_recientes: [
+    {
+      calificacion: 1,
+      comentario: 'No corresponde a la descripción.'
+    }
+  ],
+  sku: 'CAL-00129',
+  producto: 'Zapatos formales Andina Mini',
+  categoria: 'Calzado',
+  proveedor: 'Importadora del Caribe S.A.S.',
+  contacto_proveedor: 'ventas@importadoradelcaribe.com.co',
+  promedio: 2.8,
+  pct_negativas: 30
+}
+{
+  resenas: 5,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Se dañó a las pocas semanas.'
+    },
+    {
+      calificacion: 2,
+      comentario: 'Se dañó a las pocas semanas.'
+    }
+  ],
+  sku: 'OFI-00254',
+  producto: 'Set de bolígrafos Nova Max',
+  categoria: 'Oficina',
+  proveedor: 'Importadora Pacífico S.A.S.',
+  contacto_proveedor: 'ventas@importadorapacifico.com.co',
+  promedio: 2.8,
+  pct_negativas: 40
+}
+{
+  resenas: 5,
+  quejas_recientes: [
+    {
+      calificacion: 2,
+      comentario: 'Calidad inferior a la esperada.'
+    }
+  ],
+  sku: 'CAL-00140',
+  producto: 'Tenis urbanos Cumbre Classic',
+  categoria: 'Calzado',
+  proveedor: 'Importadora del Caribe S.A.S.',
+  contacto_proveedor: 'ventas@importadoradelcaribe.com.co',
+  promedio: 2.8,
+  pct_negativas: 40
+}
+(11 documentos)
+
+====================================================================================================
+C6. Riesgo de quiebre de stock: días de inventario restantes según ventas de los últimos 90 días
+Colección: productos
+====================================================================================================
+{
+  sku: 'LIB-00214',
+  stock: 0,
+  producto: 'Libro infantil ilustrado Cumbre Mini',
+  vendidas_90d: 12,
+  venta_diaria: 0.13,
+  dias_de_inventario: 0,
+  proveedor: 'Importadora Global S.A.S.',
+  contacto_proveedor: 'ventas@importadoraglobal.com.co'
+}
+{
+  sku: 'MOD-00122',
+  stock: 1,
+  producto: 'Gorra Brisa Max',
+  vendidas_90d: 13,
+  venta_diaria: 0.14,
+  dias_de_inventario: 7,
+  proveedor: 'Importadora Pacífico S.A.S.',
+  contacto_proveedor: 'ventas@importadorapacifico.com.co'
+}
+{
+  sku: 'TEC-00014',
+  stock: 9,
+  producto: 'Smartwatch Zenit Plus',
+  vendidas_90d: 36,
+  venta_diaria: 0.4,
+  dias_de_inventario: 22,
+  proveedor: 'Comercializadora del Norte S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoradelnorte.com.co'
+}
+{
+  sku: 'COC-00067',
+  stock: 2,
+  producto: 'Olla a presión Kora Pro',
+  vendidas_90d: 5,
+  venta_diaria: 0.06,
+  dias_de_inventario: 36,
+  proveedor: 'Comercializadora Central S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoracentral.com.co'
+}
+{
+  sku: 'LIB-00201',
+  stock: 14,
+  producto: 'Novela Tayrona Eco',
+  vendidas_90d: 34,
+  venta_diaria: 0.38,
+  dias_de_inventario: 37,
+  proveedor: 'Comercializadora Central S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoracentral.com.co'
+}
+{
+  sku: 'DEP-00084',
+  stock: 4,
+  producto: 'Balón de fútbol Cumbre Lite',
+  vendidas_90d: 8,
+  venta_diaria: 0.09,
+  dias_de_inventario: 45,
+  proveedor: 'Distribuciones Integral S.A.S.',
+  contacto_proveedor: 'ventas@distribucionesintegral.com.co'
+}
+{
+  sku: 'LIB-00224',
+  stock: 3,
+  producto: 'Libro infantil ilustrado Monteverde Pro',
+  vendidas_90d: 4,
+  venta_diaria: 0.04,
+  dias_de_inventario: 68,
+  proveedor: 'Importadora Global S.A.S.',
+  contacto_proveedor: 'ventas@importadoraglobal.com.co'
+}
+{
+  sku: 'JUG-00176',
+  stock: 9,
+  producto: 'Set de bloques Tayrona Eco',
+  vendidas_90d: 10,
+  venta_diaria: 0.11,
+  dias_de_inventario: 81,
+  proveedor: 'Distribuciones Pacífico S.A.S.',
+  contacto_proveedor: 'ventas@distribucionespacifico.com.co'
+}
+{
+  sku: 'COC-00055',
+  stock: 3,
+  producto: 'Olla a presión Brisa Eco',
+  vendidas_90d: 3,
+  venta_diaria: 0.03,
+  dias_de_inventario: 90,
+  proveedor: 'Comercializadora Central S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoracentral.com.co'
+}
+{
+  sku: 'DEP-00090',
+  stock: 9,
+  producto: 'Balón de fútbol Tayrona Pro',
+  vendidas_90d: 6,
+  venta_diaria: 0.07,
+  dias_de_inventario: 135,
+  proveedor: 'Comercializadora Global S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoraglobal.com.co'
+}
+{
+  sku: 'HOG-00036',
+  stock: 8,
+  producto: 'Juego de sábanas Aurora Max',
+  vendidas_90d: 5,
+  venta_diaria: 0.06,
+  dias_de_inventario: 144,
+  proveedor: 'Importadora Global S.A.S.',
+  contacto_proveedor: 'ventas@importadoraglobal.com.co'
+}
+{
+  sku: 'HOG-00042',
+  stock: 5,
+  producto: 'Lámpara de escritorio Tayrona Mini',
+  vendidas_90d: 3,
+  venta_diaria: 0.03,
+  dias_de_inventario: 150,
+  proveedor: 'Distribuciones Central S.A.S.',
+  contacto_proveedor: 'ventas@distribucionescentral.com.co'
+}
+{
+  sku: 'SAL-00297',
+  stock: 5,
+  producto: 'Termómetro infrarrojo Zenit Edición 2026',
+  vendidas_90d: 3,
+  venta_diaria: 0.03,
+  dias_de_inventario: 150,
+  proveedor: 'Distribuciones Pacífico S.A.S.',
+  contacto_proveedor: 'ventas@distribucionespacifico.com.co'
+}
+{
+  sku: 'COC-00075',
+  stock: 9,
+  producto: 'Sartén antiadherente Kora Edición 2026',
+  vendidas_90d: 5,
+  venta_diaria: 0.06,
+  dias_de_inventario: 162,
+  proveedor: 'Comercializadora Central S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoracentral.com.co'
+}
+{
+  sku: 'COC-00063',
+  stock: 15,
+  producto: 'Sartén antiadherente Andina Edición 2026',
+  vendidas_90d: 8,
+  venta_diaria: 0.09,
+  dias_de_inventario: 169,
+  proveedor: 'Comercializadora Central S.A.S.',
+  contacto_proveedor: 'ventas@comercializadoracentral.com.co'
+}
+(15 documentos)
+
+====================================================================================================
+C7. Tasa de rechazo por método de pago y monto rechazado
+Colección: pedidos
+====================================================================================================
+{
+  intentos: 712,
+  aprobados: 598,
+  rechazados: 102,
+  metodo: 'Tarjeta credito',
+  tasa_rechazo_pct: 14.3,
+  monto_aprobado: 431369035,
+  monto_rechazado: 64442970
+}
+{
+  intentos: 571,
+  aprobados: 484,
+  rechazados: 70,
+  metodo: 'PSE',
+  tasa_rechazo_pct: 12.3,
+  monto_aprobado: 364031225,
+  monto_rechazado: 50317750
+}
+{
+  intentos: 464,
+  aprobados: 412,
+  rechazados: 44,
+  metodo: 'Tarjeta debito',
+  tasa_rechazo_pct: 9.5,
+  monto_aprobado: 277186535,
+  monto_rechazado: 39584970
+}
+{
+  intentos: 258,
+  aprobados: 237,
+  rechazados: 18,
+  metodo: 'Nequi',
+  tasa_rechazo_pct: 7,
+  monto_aprobado: 175917800,
+  monto_rechazado: 12042515
+}
+{
+  intentos: 139,
+  aprobados: 139,
+  rechazados: 0,
+  metodo: 'Contraentrega',
+  tasa_rechazo_pct: 0,
+  monto_aprobado: 93496705,
+  monto_rechazado: 0
+}
+(5 documentos)

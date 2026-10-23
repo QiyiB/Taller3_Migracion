@@ -1,0 +1,13 @@
+{
+  "_id": 1,
+  "razon_social": "Grupo Express S.A.S.",
+  "nit": "900037171-1",
+  "contacto": {
+    "email": "ventas@grupoexpress.com.co",
+    "telefono": "6088083634"
+  },
+  "ubicacion": {
+    "ciudad": "Bogotá",
+    "pais": "Colombia"
+  }
+}

@@ -1,0 +1,5 @@
+pyodbc>=5.0
+pymongo>=4.6
+python-pptx>=1.0     # solo para regenerar la presentación
+PySide6>=6.6         # aplicación de escritorio (migrador_app.py)
+pyinstaller>=6.0     # solo para empaquetar el .exe
